@@ -9,3 +9,38 @@ main {
   margin: 0 auto;
   padding: 24px 16px;
 }
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.badge {
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.badge--completed {
+  background: #e8f5e9;
+}
+
+.badge--pending {
+  background: #fff8e1;
+}
+
+.badge--failed {
+  background: #ffebee;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+}
